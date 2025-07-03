@@ -12,7 +12,7 @@ public class reverse_string {
 
 
 
-     char[] ch =s.toCharArray();
+    //  char[] ch =s.toCharArray();
 
 
 
@@ -20,15 +20,15 @@ public class reverse_string {
 
 
 
-     for (int i = ch.length-1; i>=0;   i--){
+     for (int i = s.length()-1; i>=0;   i--){
 
 
 
-        rev = rev + ch[i];
+        rev = rev + s.charAt(i);
 
      }
 
-     System.out.println(rev);
+            System.out.println(rev);
 
 
 
