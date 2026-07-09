@@ -5,7 +5,7 @@ Demo(){
 }
 
 void display(){
-    System.out.println("Display my msg");
+    System.out.println("Display my msg i am sriram singh");
 }
     public static void main(String[] args) {
         System.out.println("Welcome");
