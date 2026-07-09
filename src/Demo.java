@@ -1,4 +1,5 @@
 public class Demo {
+int x=1;
 
 Demo(){
     System.out.println("Hello");
@@ -9,8 +10,10 @@ void display(){
 }
     public static void main(String[] args) {
         System.out.println("Welcome");
-//        new Demo();
-         new Demo().display();
+       Demo d=new Demo();
+       d.x;
+         //new Demo().display();
+
 
     }
 }
